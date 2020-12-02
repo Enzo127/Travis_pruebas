@@ -17,6 +17,5 @@ class Test_Engine(unittest.TestCase):
         result = Calculo.mult(3,7)
         self.assertEqual(result, 21)
 
-
 if __name__ == "__main__":
     unittest.main()
