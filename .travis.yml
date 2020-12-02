@@ -7,8 +7,6 @@ install:
   - pip install -r requirements.txt
 
 script: 
-
-  #- coverage run -omit=*/home/travis/virtualenv/python3.9.0/lib/python3.9/site-packages* Test_Calculo.py
   - coverage run Test_Calculo.py
   - coverage report -m
 
