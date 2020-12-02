@@ -8,7 +8,7 @@ install:
 
 script: 
 
-  - coverage run Test_Calculo.py
+  - coverage run --source=Travis_pruebas Test_Calculo.py
   - coverage report -m
 
 after_success:
