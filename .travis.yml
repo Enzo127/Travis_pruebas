@@ -8,7 +8,7 @@ install:
 
 script: 
 
-  - python Test_Calculo.py
+  - coverage run Test_Calculo.py
 
 after_success:
   - coveralls
