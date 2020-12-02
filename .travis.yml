@@ -9,5 +9,5 @@ install:
 script: 
    - coverage run Test_Calculo.py
 
-#after_success:
-#  - coveralls
+after_success:
+  - coveralls

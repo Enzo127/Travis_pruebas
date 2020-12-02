@@ -6,7 +6,7 @@ def resta(x,y):
 
 
 def mult(x,y):
-    return x*y+1
+    return x*y
 
 print("eu, lo hiciste perfecto!")
 print("aunque ahora no se che")
