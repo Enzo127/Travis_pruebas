@@ -7,7 +7,8 @@ install:
   - pip install -r requirements.txt
 
 script: 
-   - coverage run Test_Calculo.py
+
+  - python Test_Calculo.py
 
 after_success:
   - coveralls
