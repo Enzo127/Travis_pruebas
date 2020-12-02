@@ -8,7 +8,7 @@ install:
 
 script: 
 
-  - coverage run --omit=\home\travis\virtualenv\ .\Test_Calculo.py
+  - coverage run .\Test_Calculo.py
   - coverage report -m
 
 after_success:
